@@ -6,6 +6,19 @@ var mostarOcultar = function(divtexte) {
     divtext.style.display = "block";
   }
 }
+
+//var mostarOcultarPrimero = function(dive) {
+  //var div = document.getElementById(dive);
+  //if (div.style.display == "block" ) {
+  //  div.style.display = "none";
+//  }
+//}
+
+
+//var indice = document.getElementById("opciones").selectedIndex;
+//if( indice == null || indice == 0 ) {
+//  alert("Responda todas las preguntas");
+//}
 function myFunction() {
 	document.getElementById("myDropdown").classList.toggle("show");
 }

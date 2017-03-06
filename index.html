@@ -9,7 +9,8 @@
 <link rel="stylesheet" href="assets/css/diseño.css">
 </head>
 <body>
-  <div style="Position:Absolute; left:90%; top:5%" class="dropdown" >Hola Maria
+  <div style="Position:Absolute; left:90%; top:5%" class="dropdown" >
+    <p>Hola Maria</p>
   <button onclick="myFunction()" class="dropbtn" align="right">&#9776;</button>
   <div id="myDropdown" class="dropdown-content">
     <a href="coders.html">Coder</a>
@@ -29,15 +30,82 @@
    adipiscing. Ut eget mattis libero. Curabitur at elit augue. Mauris et felis dui. </p>
 <h3>Temas</h3>
 
-<input type="button" value="Mostar/ocultar 1" onclick="mostarOcultar('text1')" >
-<input type="button" value="Mostar/ocultar 2" onclick="mostarOcultar('text2')">
-<input type="button" value="Mostar/ocultar 3" onclick="mostarOcultar('text3')">
+<input type="button" value="Sprint 1" onclick="mostarOcultar('text1')" >
+<input type="button" value="Sprint 2" onclick="mostarOcultar('text2')">
+<input type="button" value="sprint 3" onclick="mostarOcultar('text3')">
 
 <br/>
-<div id="text1">Soy el primer tfnklnklnkblnsdklnvklnkdlnklvnsdklnvklnsexto</div>
-<div id="text2">Soy el segundodbhjvhjvhjvhjvjksdbjkbjdbjb texto</div>
-<div id="text3">Soy el terceronjbhjvjhvhjvhjvhjvhjvhjvhjv texto</div>
+<div id="text1">
+<h2>Sprint 1: Introducción a JavaScript</h2>
+<ol type=”1” start=”10”>
+<li> Fundamentos de programación. </li>
+<li> Funciones </li>
+<li> Arreglos </li>
+<li> Objetos </li>
+</ol>
+<hr>
+<div id = "blockPrimero">
+<h2>Quiz</h2>
+<h3>Existen dos tipos de funciones </h3>
+<form id = "primeraPregunta">
+  <input type="radio" name="checkbox" value="1" > Expresadas y declaradas<br>
+  <input type="radio" name="checkbo" value="0"> Explicitas y declaradas<br>
+  <input type="radio" name="checkbo" value="0"> Expresadas y derivadas
+</form>
 
+<h3>Elija una propiedad de los arreglos </h3>
+<form id = "segundaPregunta" >
+  <input type="radio" name="checkbo" value="0" > Clear<br>
+  <input type="radio" name="checkbo" value="0"> Pop<br>
+  <input type="radio" name="checkbox" value="1"> Add
+</form>
+<h3>Un objeto tiene........... y ......... </h3>
+<form id = "terceraPregunta">
+  <input type="radio" name="checkbo" value="0" > Números y letras<br>
+  <input type="radio" name="checkbo" value="0"> Partes y validaciones<br>
+  <input type="radio" name="checkbox" value="1"> Propiedades y valores
+</form>
+</div>
+<input type="button" value="Enviar" onClick="contar();" >
+</div>
+
+
+<div id="text2">
+<h2>Sprint 2: Introducción al desarrollo web y construción de páginas web</h2>
+<ol type=”1” start=”10”>
+<li> Ciclo de vida del desarrollo web y arquitectura básica cliente/servidor/configuración del ambiente de trabajo e introducción a git. </li>
+<li> HTML y javascript en el navegador </li>
+<li> Manejo de comandos básicos de git en el terminal </li>
+<li> Pruebas unitarias </li>
+<li> Git/ Resolución de conflictos/ Branching model </li>
+<li> DOM </li>
+</ol>
+<hr>
+<h2>Quiz</h2>
+<h3>¿Cuál es el comando para iniciar un repositorio desde la consola? </h3>
+<form>
+  <input type="radio" name="gender" value="git init ." > git init<br>
+  <input type="radio" name="gender" value="git init"> git init<br>
+  <input type="radio" name="gender" value="git init add"> git init add
+</form>
+
+<h3>¿Cuál es la finalidad de hacer una prueba unitaria? </h3>
+<form>
+  <input type="radio" name="gender" value="" > Comprobar que el código funciona correctamente<br>
+  <input type="radio" name="gender" value=""> Darle valores a los parámetros de dichas funciones<br>
+  <input type="radio" name="gender" value=""> No tiene ningun fin
+</form>
+
+<h3>¿Qué significa DOM? </h3>
+<form>
+  <input type="radio" name="gender" value="" > Dual Object Model<br>
+  <input type="radio" name="gender" value=""> Document Object Model<br>
+  <input type="radio" name="gender" value=""> Document Obsolet Model
+</form>
+
+<input type="button" value="Enviar"  >
+</div>
+<div id="text3">No hay lecciones (Todavia)</div>
 
 </div>
 </div>
